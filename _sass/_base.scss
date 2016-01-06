@@ -103,7 +103,7 @@ h6 {
 }
 
 h1 {
-  font-size: $font-size-h1;
+  font-size: $font-size-h2;
   text-shadow: 2px 2px 1px darken($background-color, 10%);
  }
 
@@ -194,6 +194,13 @@ pre {
     padding-right: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
   }
+}
+
+.logotype-vector {
+  display: block;
+  clear: both;
+  width: percentage(2/3);
+  margin: 0 auto 2em
 }
 
 /**
