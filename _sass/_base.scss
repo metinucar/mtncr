@@ -100,12 +100,17 @@ h4,
 h5,
 h6 {
   font-weight: $base-font-weight-bold;
+  line-height: 1.1;
 }
 
 h1 {
-  font-size: $font-size-h2;
+  font-size: $font-size-h4;
   text-shadow: 2px 2px 1px darken($background-color, 10%);
- }
+}
+
+@media screen and (min-width:641px) {
+  h1 { font-size: $font-size-h2 }
+}
 
 h2 { font-size: $font-size-h2 }
 h3 { font-size: $font-size-h3 }
